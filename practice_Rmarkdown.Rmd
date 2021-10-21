@@ -1,0 +1,56 @@
+---
+title: "Reproducible science workshop"
+author: '[**_Miao baige_**](mailto:miaobaige@xtbg.org.cn)'
+date: "(Created on Aug 31 2021 and last updated on Fri Oct 15 2021 23:55:49)"
+output: 
+#rmdformats::material
+  html_document:
+    fig_caption: yes
+    theme: spacelab #readable #sandstone #spacelab #flatly
+    highlight: pygments #tango #kate
+    toc: TRUE
+    toc_depth: 3
+    number_sections: TRUE
+    toc_float:
+      collapsed: TRUE
+      smooth_scroll: TRUE
+      toc: true
+  pd
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+The following is the tentative outline of a four day workshop that will be held in Xishuangbanna Tropical Botanical Garden [(XTBG)](http://english.xtbg.cas.cn/) from **October 19-22nd 2021**. The purpose of this workshop is to get participants familiar with the concept of **_reproducible science_** that is surprisingly not commonly taught but which is becoming a requirement for better collaboration (not only with others but with oneself through time) and for credible science. At the end of this workshop, attendees should be familiar with tools use to achieve reproducible science, will be more confident with themselves, and be inclined to adopt these tools which will ease their collaboration with themselves as well as others. This course consists of four main parts which aim to putting everything from data to final report including r code and some interpretations and also exercises as step by step work me through method. This course will be mainly taught by Dossa G.G.O. click here to email me. Dossa has been teaching part of this workshop as a short module at the yearly postgraduate Advanced Fieldcourse in Ecology and Conservation – XTBG [AFEC-X](https://www.pfs-tropasia.org/) for the past two years.
+
+### **_Who should attend this course?_**
+
+Anyone who carries out research either as student, or research staff and seeks guidance to manage data efficiently, to improve peers credibility in their research output, and is keen to make science solid and credible. Consider thinking about the following questions:
+
+* Have you ever worked collaboratively with others, and received multiple comments that you needed to deal with?
+* Have you been ever asked by your collaborators/supervisor to go back to previous version of your manuscripts/analysis/ results?
+* Have you ever thought that you finalized an analysis but to realize a mistake was in the data file?
+* Have you ever spent endless time to explain your past / current projects to your collaborators (including yourself) but realize you even do not remember what you did at some point or why you did certain things?
+* Have you ever copied a table from R/SPSS/Minitab/SAS to excel, and subsequently from Excel to your word processing document? And most annoyingly, you need to repeats these steps whenever anything has changed in the analysis or code.    
+
+If you answer **Yes** to any of the above questions then, this workshop is designed for you. Above all, there are five selfish reasons for why you would love to take this workshop click here **_[Five selfish reasons](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0850-7)_**
+
+```{r Miao baige, echo=FALSE, fig.cap="me",out.width="40%"}
+knitr::include_graphics("C:/Users/gezi/Desktop/548.JPG")
+```
+
+```{r XTBG, echo=FALSE, fig.cap="XTBG.logo",out.width="40%"}
+knitr::include_graphics("C:/Users/gezi/Desktop/W020090811394264105137.png")
+```
+
+: A hand-made table with R Markdown
+
++-------------+-------------+
+|    Name     |     Gender  |
++=============+=============+
+|Miao Baige   |female       |
++-------------+-------------+
+|Peng Yanqiong|female       |
++-------------+-------------+
+
+
